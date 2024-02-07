@@ -13,21 +13,21 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <>
+         <BrowserRouter>
       <header>
         <Navbar/>
          </header>
       <main>
-         <BrowserRouter>
          <Routes>
          <Route path="/" element={<MainMovie/>} />
-         <Route path="/" element={<SecondMovie/>} />
-      <Route path="/" element={<ThirdMovie/>} />
+         <Route path="/second" element={<SecondMovie/>} />
+      <Route path="/third" element={<ThirdMovie/>} />
       </Routes>
-      </BrowserRouter>
       </main>
       <footer>
         <Footer/>
       </footer>
+      </BrowserRouter>
     </>
   );
 }

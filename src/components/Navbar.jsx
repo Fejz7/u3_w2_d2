@@ -28,7 +28,7 @@ class Navbar extends React.Component {
                 <Link to="/" className="nav-link active fw-bold">Home</Link>
               </li>
               <li className="nav-item">
-                <Link to="/MainMovie" className="nav-link fw-bold">TV Shows</Link> 
+                <Link to="/second" className="nav-link fw-bold">TV Shows</Link> 
               </li>
               <li className="nav-item">
                 <Link to="/movies" className="nav-link fw-bold">Movies</Link>
